@@ -82,27 +82,28 @@
 
         <section class="introduction">
             <div class="container">
-                <div class="introduction__wrapper"></div>
-                <div class="introduction__titles">
+                <div class="introduction__wrapper">
+                    <div class="introduction__titles">
                     <h2 class="title1">INTRODUCTION</h2>
                     <h2 class="title2">TO HYDRA VR</h2>
-                    <img class="main__img-arrow" src="./assets/vectors/arrow-small-right.svg" alt="">
-                    <p class="introduction-about__title"></p>
-                </div>
-                <div class="text2">Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
+                    </div>
+                    <img class="introduction__img-arrow" src="./assets/vectors/arrow-small-right.svg" alt="">
+                    <p class="text2">Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
                     nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
                     quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
-                    lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</div>
+                    lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
+                </div>
             </div>
         </section>
 
         <section class="about">
             <div class="container">
-                <div class="about__wrapper"></div>
-            <img class="about__image-vr" src="./assets/images/about.png" alt="">
-            <div class="about__titles">
-                <h2 class="title1">ABOUT</h2>
-                    <h2 class="title2">HYDRA VR</h2>
+                <div class="about__wrapper">
+                    <img class="about__image-vr" src="./assets/images/about.png" alt="">
+                    <div class="about__titles">
+                        <h2 class="title1">ABOUT</h2>
+                        <h2 class="title2">HYDRA VR</h2>
+                    </div>
                     <div class="text3">
                         Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus 
                         urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida 
@@ -112,29 +113,32 @@
                         etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet 
                         cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pha
                         retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi
-                        n tempor.</div>
+                        n tempor.
+                    </div>
+                    <button class="about__button">
+                        LETS GET IN TOUCH
+                    </button>
+                </div>
             </div>
-            <button class="about__button">
-                LETS GET IN TOUCH
-            </button>
-        </div>
         </section>
 
         <section class="why">
             <div class="container">
-                <div class="why__wrapper"></div>
-                <div class="why__titles">
-                    <h2 class="title1">WHY BUILD</h2>
+                <div class="why__wrapper">
+                    <div class="why__titles">
+                        <h2 class="title1">WHY BUILD</h2>
                         <h2 class="title2">WITH HYDRA?</h2>
+                    </div>
                         <img class="why__img-arrow" src="./assets/vectors/arrow-small-right.svg" alt="">
 
-                        <div class="text4">
+                    <div class="text4">
                             Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
                             nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
                             quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
                             lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
-                        </div>
+                    </div>
                 </div>
+            
             
 
             <div class="why-containers">
@@ -193,7 +197,6 @@
         </section>
 
 
-
         <section class="how">
             <div class="container">
                 <div class="how__wrapper">
@@ -201,6 +204,7 @@
                         <h2 class="title1">HOW WE BUILD</h2>
                         <p class="title2">WITH HYDRA VR?</p>
                     </div>
+                    <img class="how__img-arrow" src="./assets/vectors/arrow-small-right.svg" alt="">
                     <div class="text5">
                     Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
                     nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
@@ -250,17 +254,23 @@
 <div class="form__title2">Let’s Build Your VR Experience</div>
 <form action="">
     
-        <input type="text" placeholder="First Name" class="first_name"/>
-    
-        <input type="text" placeholder="Last Name" class="last_name"/>
-    
-        <input type="email" placeholder="E-mail" class="email"/>
-    
-        <input type="number" placeholder="Phone Number" class="phone"/>
-    
-        <input type="text" placeholder="Subject" class="subject"/>
-    
-        <textarea name="message" class="message" rows="2" cols="120">Tell us something..</textarea>
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" placeholder="First Name" class="first_name"/>
+
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" placeholder="Last Name" class="last_name"/>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="E-mail" class="email"/>
+
+        <label for="phone">Phone Number</label>
+        <input type="number" id="phone" placeholder="Phone Number" class="phone"/>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Subject" class="subject"/>
+
+        <label for="message"></label>
+        <textarea name="message" id="message" class="message" rows="2" cols="120">Tell us something..</textarea>
     
         <button type="submit" class="footer__button">SEND TO HYDRA</button>
 
