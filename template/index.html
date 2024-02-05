@@ -12,20 +12,20 @@
 
     <section class="header">
         <header class="header_header">
-        <div class="header_container">
-            <nav class="header_nav">
-                <a class="header_logo" href="#">
-                    <img class="header_logo1" src="./assets/logo/logo.svg" alt="">
-                    <img class="header_logo2" src="./assets/logo/hydra.svg" alt="">
+        <div class="container">
+            <nav class="header__nav">
+                <a class="header__logo" href="#">
+                    <img class="header__logo1" src="./assets/logo/logo.svg" alt="">
+                    <img class="header__logo2" src="./assets/logo/hydra.svg" alt="">
                 </a>
-                <ul class="header_menu">
-                    <li class="header_menu__list"><a href="#">ABOUT</a></li>
-                    <li class="header_menu__list"><a href="#">SERVICES</a></li>
-                    <li class="header_menu__list"><a href="#">TECHNOLOGIES</a></li>
-                    <li class="header_menu__list"><a href="">HOW TO</a></li>
+                <ul class="header__menu">
+                    <li class="header__menu__list"><a href="#">ABOUT</a></li>
+                    <li class="header__menu__list"><a href="#">SERVICES</a></li>
+                    <li class="header__menu__list"><a href="#">TECHNOLOGIES</a></li>
+                    <li class="header__menu__list"><a href="">HOW TO</a></li>
                 </ul>
-                <button class="header_button-contact">CONTACT US</button>
-                <button class="header_button-jpon">JOIN US</button>
+                <button class="header__button-contact">CONTACT US</button>
+                <button class="header__button-join">JOIN US</button>
             </nav>
         </div>
     </header>
@@ -33,63 +33,77 @@
 
 <main>
     <section class="main">
-        <section class="main_top">
-            <div class="main_container">
-                <h1 class="main_title-hydra">HYDRA</h1>
-                <p class="main_subtitle">Dive Into The Depths</p>
-                <p class="main_subtitle">Of Virtual Reality</p>
-                <p class="main_top_text">
+            <div class="container">
+                <div class="wrapper-main">
+                    <div class="main__titles">
+                <p class="main__title1"><span class="colortext">Dive</span> Into The Depths</p>
+                <p class="main__title2">Of <span class="colortext">Virtual Reality</span> </p>
+                    </div>
+
+                    <p class="text1">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore 
                     nisl tincidunt eget. Lectus mauris eros in vitae .
-                </p>
-                <buttom class="main_button-more">
-                    <span class="main_title-build">BUILD YOUR WORLD</span>
-                </buttom>
-                <img class="main_image-build" src="./assets/images/build-your-world.png" alt="">
-                <footer class="footer_contacts">
+                    </p>
+            
+                <button class="main__button-more">BUILD YOUR WORLD</button>
+                <img class="main__img-arrow" src="./assets/vectors/arrow-small-right.svg" alt="">
 
-                    <div class="footer_address">
-                    <p class="footer_address_title">Pay Us a Visit</p>
-                    <p class="footer_address_content">Union St, Seattle, WA 98101, United States</p>
+                    <div class="img-build">
+                <img class="main__image-build" src="./assets/images/build-your-world.png" alt="">
+                    </div>
+            
+                </div>
+
+                <aside class="main__aside-contacts">
+                    <div class="aside-contacts">
+
+                    <div class="aside-address">
+                    <img class="aside__image1" src="./assets/icons/Location-Icon.svg" alt="">
+                    <p class="aside-address__title">Pay Us a Visit</p>
+                    <p class="aside-address__content">Union St, Seattle, WA 98101, United States</p>
                     </div>
 
-                    <div class="footer_call">
-                    <p class="footer_call_title">Give Us a Call</p>
-                    <p class="footer_call_content">(110) 1111-1010</p>
+                    <div class="aside-call">
+                    <img class="aside__image2" src="./assets/icons/phone-call.svg" alt="">
+                    <p class="aside-call__title">Give Us a Call</p>
+                    <p class="aside-call__content">(110) 1111-1010</p>
                     </div>
                     
-                    <div class="footer_message">
-                    <p class="footer_message_title">Send Us a Message</p>
-                    <p class="footer_message_content">Contact@HydraVTech.com</p>
+                    <div class="aside-message">
+                    <img class="aside__image3" src="./assets/icons/mail.svg" alt="">
+                    <p class="aside-message__title">Send Us a Message</p>
+                    <p class="aside-message__content">Contact@HydraVTech.com</p>
                     </div>
-                    
-                </footer>
+                    </div>
+                </aside>
             </div>
-        </section>
     </section>
 
         <section class="introduction">
-            <div class="introduction_container">
-                <div class="introduction___titles">
-                    <h2 class="introduction___title1">INTRODUCTION</h2>
-                    <h2 class="introduction___title2">TO HYDRA VR</h2>
-                    <p class="introduction_about__title"></p>
+            <div class="container">
+                <div class="introduction__wrapper"></div>
+                <div class="introduction__titles">
+                    <h2 class="title1">INTRODUCTION</h2>
+                    <h2 class="title2">TO HYDRA VR</h2>
+                    <img class="main__img-arrow" src="./assets/vectors/arrow-small-right.svg" alt="">
+                    <p class="introduction-about__title"></p>
                 </div>
-                <p>Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
+                <div class="text2">Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
                     nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
                     quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
-                    lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
+                    lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</div>
             </div>
         </section>
 
         <section class="about">
-            <div class="about_container">
-            <img class="about_image-vr" src="./assets/images/about.png" alt="">
+            <div class="container">
+                <div class="about__wrapper"></div>
+            <img class="about__image-vr" src="./assets/images/about.png" alt="">
             <div class="about__titles">
-                <h2 class="about__title1">ABOUT</h2>
-                    <h2 class="about__title2">HYDRA VR</h2>
-                    <p class="about__text">
+                <h2 class="title1">ABOUT</h2>
+                    <h2 class="title2">HYDRA VR</h2>
+                    <div class="text3">
                         Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus 
                         urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida 
                         dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipiscing at in. 
@@ -98,145 +112,224 @@
                         etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet 
                         cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pha
                         retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi
-                        n tempor.</p>
+                        n tempor.</div>
             </div>
-            <buttom class="about_button-more">
-                <span class="about_button_title">LETS GET IN TOUCH</span>
-            </buttom>
+            <button class="about__button">
+                LETS GET IN TOUCH
+            </button>
         </div>
         </section>
 
         <section class="why">
-            <div class="why_container">
+            <div class="container">
+                <div class="why__wrapper"></div>
                 <div class="why__titles">
-                    <h2 class="why__title1">WHY BUILD</h2>
-                        <h2 class="why__title2">WITH HYDRA?</h2>
-                        <p class="why__text">
+                    <h2 class="title1">WHY BUILD</h2>
+                        <h2 class="title2">WITH HYDRA?</h2>
+                        <img class="why__img-arrow" src="./assets/vectors/arrow-small-right.svg" alt="">
+
+                        <div class="text4">
                             Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
                             nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
                             quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
-                            lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
+                            lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
+                        </div>
+                </div>
+            
+
+            <div class="why-containers">
+                <div class="why-container">
+                    <img class="img-why" src="./assets/images/simulation.png" alt="">
+                    <h2 class="title">SIMULATION</h2>
+                    <div class="text-why">Vitae sapien pellentesque habitant morbi
+                nunc. Viverra aliquet  porttitor rhoncus 
+                libero justo laoreet sit amet vitae.</div>
+                    <button class="button-why">TRY IT NOW</button>
+                </div>
+
+                <div class="why-container">
+                    <img class="img-why" src="./assets/images/education.png" alt="">
+                    <h2 class="title">EDUCATION</h2>
+                    <div class="text-why">Vitae sapien pellentesque habitant morbi
+                nunc. Viverra aliquet  porttitor rhoncus 
+                libero justo laoreet sit amet vitae.</div>
+                    <button class="button-why">TRY IT NOW</button>
+                </div>
+
+                <div class="why-container">
+                    <img class="img-why" src="./assets/images/self-care.png" alt="">
+                    <h2 class="title">SELF-CARE</h2>
+                    <div class="text-why">Vitae sapien pellentesque habitant morbi
+                nunc. Viverra aliquet  porttitor rhoncus 
+                libero justo laoreet sit amet vitae.</div>
+                    <button class="button-why">TRY IT NOW</button>
+                </div>
+
+                <div class="why-container">
+                    <img class="img-why" src="./assets/images/outdoor.png" alt="">
+                    <h2 class="title">OUTDOOR</h2>
+                    <div class="text-why">Vitae sapien pellentesque habitant morbi
+                nunc. Viverra aliquet  porttitor rhoncus 
+                libero justo laoreet sit amet vitae.</div>
+                    <button class="button-why">TRY IT NOW</button>
                 </div>
             </div>
+        </div>
         </section>
 
         <section class="tech">
-            <div class="tech_container">
+            <div class="container">
                 <div class="tech__titles">
-                    <h2 class="tech__title1">TECHNOLOGIES & HARDWARE</h2>
-                    <p class="tech__title2">USED BY HYDRA VR.</p>
+                    <h2 class="title1">TECHNOLOGIES & HARDWARE</h2>
+                    <p class="title2">USED BY HYDRA VR.</p>
                 </div>
+            </div>
+            <div class="tech__icons">
+            <img class="tech__icons__item" src="./assets/images/unreal_engine.png" alt="">
+            <img class="tech__icons__item" src="./assets/images/unity.png" alt="">
+            <img class="tech__icons__item" src="./assets/images/oculus.png" alt="">
+            <img class="tech__icons__item" src="./assets/images/vive.png" alt="">
             </div>
         </section>
 
 
+
         <section class="how">
-            <div class="how_container">
-                <div class="how__titles">
-                    <h2 class="how__title1">HOW WE BUILD</h2>
-                    <p class="how__title2">WITH HYDRA VR?</p>
-                </div>
-                <p>
+            <div class="container">
+                <div class="how__wrapper">
+                    <div class="how__titles">
+                        <h2 class="title1">HOW WE BUILD</h2>
+                        <p class="title2">WITH HYDRA VR?</p>
+                    </div>
+                    <div class="text5">
                     Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat 
                     nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo 
                     quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare 
                     lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
-                <div class="how_ellipse">
-                    <img class="1" src="./assets/vectors/Ellipse 7.svg" alt="">
-                    <img class="2" src="./assets/vectors/Ellipse 8.svg" alt="">
-                    <img class="1" src="./assets/vectors/arrow-small-right.svg" alt="">
-                    <p>3D Conception
-                        & Design</p>
+                    </div>
+                </div>
 
+                <div class="how-ellipse">
 
-                    <img class="1" src="./assets/vectors/Ellipse 7.svg" alt="">
-                    <img class="2" src="./assets/vectors/Ellipse 8.svg" alt="">
-                    <img class="1" src="./assets/vectors/arrow-small-right.svg" alt="">
-                    <p>Interaction
-                        Design</p>
+                    <div class="ellipse">01</div>
+                    
+                    <div class="how-content">
+                        <img class="1" src="./assets/vectors/arrow-small-right.svg" alt="">
+                        3D Conception
+                        & Design</div>
 
-                    <img class="1" src="./assets/vectors/Ellipse 7.svg" alt="">
-                    <img class="2" src="./assets/vectors/Ellipse 8.svg" alt="">
-                    <img class="1" src="./assets/vectors/arrow-small-right.svg" alt="">
-                    <p>VR World
-                        User Testing</p>
+                        <div class="ellipse">02</div>
+                    
+                    <div class="how-content">
+                        <img class="1" src="./assets/vectors/arrow-small-right.svg" alt="">
+                        Interaction
+                        Design</div>
 
-                    <img class="1" src="./assets/vectors/Ellipse 7.svg" alt="">
-                    <img class="2" src="./assets/vectors/Ellipse 8.svg" alt="">
-                    <img class="1" src="./assets/vectors/arrow-small-right.svg" alt="">
-                    <p>Hydra VR
-                        Deploy</p>
+                        <div class="ellipse">03</div>
+                    
+                    <div class="how-content">
+                        <img class="1" src="./assets/vectors/arrow-small-right.svg" alt="">
+                        VR World
+                        User Testing</div>
+
+                        <div class="ellipse">04</div>
+                    
+                    <div class="how-content">
+                        <img class="1" src="./assets/vectors/arrow-small-right.svg" alt="">
+                        Hydra VR
+                        Deploy
+                    </div>
                 </div>
             </div>
         </section>
 
 <section class="form">
-    <div class="form_container">
-<h2>JOIN HYDRA</h2>
-<p>Let’s Build Your VR Experience</p>
-<form>
-    <div>
-        <label for="first_name">First Name</label>
-        <input type="text" id="first_name"/>
-    </div>
-    <div>
-        <label for="last_name">Last Name</label>
-        <input type="text" id="last_name"/>
-    </div>
-    <div>
-        <label for="email">E-mail</label>
-        <input type="email" id="email"/>
-    </div>
-    <div>
-        <label for="phone">Phone Number</label>
-        <input type="number" id="phone"/>
-    </div>
-    <div>
-        <label for="message"></label>
-        <textarea name="message" id="message" rows="2" cols="120">Tell us something..</textarea>
-    </div>
-    <div>
-        <label for="subject">Subject</label>
-        <input type="text" id="subject"/>
-    </div> 
-    <div><button>Send to Hydra</button></div>
+    <div class="container">
+        <div class="form-container">
+<h2 class="form__title1">JOIN HYDRA</h2>
+<div class="form__title2">Let’s Build Your VR Experience</div>
+<form action="">
+    
+        <input type="text" placeholder="First Name" class="first_name"/>
+    
+        <input type="text" placeholder="Last Name" class="last_name"/>
+    
+        <input type="email" placeholder="E-mail" class="email"/>
+    
+        <input type="number" placeholder="Phone Number" class="phone"/>
+    
+        <input type="text" placeholder="Subject" class="subject"/>
+    
+        <textarea name="message" class="message" rows="2" cols="120">Tell us something..</textarea>
+    
+        <button type="submit" class="footer__button">SEND TO HYDRA</button>
+
 </form>
-</div>
+        </div>
+    </div>
 </section>
 
 </main>
 
 <footer class="footer">
-    <nav class="footer_menu">
+    <div class="container">
+<div class="footer__wrapper">
+            <img class="footer__img" src="./assets/icons/Frame.svg" alt="">
+            <img class="footer__img" src="./assets/vectors/Vector 20.svg" alt="">
+    <nav class="footer__menu1">
         <ul>
-            <img class="vector" src="./assets/icons/Frame.svg" alt="">
-            <img class="vector" src="./assets/vectors/Vector 20.svg" alt="">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Technologies</a></li>
-            <li><a href="#">How to</a></li>
-            <li><a href="#">Join hydra</a></li>
-            <img class="vector" src="./assets/vectors/Vector 20.svg" alt="">
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Site Map</a></li>
-            <li><a href="#">Conditions</a></li>
-            <li><a href="#">Licenses</a></li>
-            <img class="vector" src="./assets/vectors/Vector 20.svg" alt="">
+            <li>
+                    <a href="#">ABOUT</a>
+            </li>
+            <li>
+                <a href="#">SERVICES</a>
+            </li>
+            <li>
+                <a href="#">TECHNOLOGIES</a>
+            </li>
+            <li>
+                <a href="#">HOW TO</a>
+            </li>
+            <li>
+                <a href="#">JOIN HYDRA</a>
+            </li>
         </ul>
     </nav>
-    <address>
-        <h4>SOCIALIZE WITH HYDRA</h4>
-        <a href="#" target="_blank"><img src="assets/icons/facebook.svg" title="Facebook" style="width: 5vw; height: 5vh"></a>
-        <a href="#" target="_blank"><img src="assets/icons/twitter.svg" title="Twitter" style="width: 5vw; height: 5vh"></a>
-        <a href="#" target="_blank"><img src="assets/icons/linkedin.svg" title="LinkedIn" style="width: 5vw; height: 5vh"></a>
-        <a href="#" target="_blank"><img src="assets/icons/youtube.svg" title="Youtube" style="width: 5vw; height: 5vh"></a>
-        <a href="#" target="_blank"><img src="assets/icons/instagram.svg" title="Instagram" style="width: 5vw; height: 5vh"></a>
-        <a href="#" target="_blank"><img src="assets/icons/pinterest.svg" title="Pinterest" style="width: 5vw; height: 5vh"></a>
-        <buttom class="more">
-            <span class="build_your_world">BUILD YOUR WORLD</span>
-        </buttom>
+            <img class="footer__img" src="./assets/vectors/Vector 20.svg" alt="">
+    <nav class="footer__menu2">
+        <ul>
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">SITE MAP</a>
+            </li>
+            <li>
+                <a href="#">CONDITIONS</a>
+            </li>
+            <li>
+                <a href="#">LICENSES</a>
+            </li>
+        </ul>
+    </nav>
+            <img class="footer__img" src="./assets/vectors/Vector 20.svg" alt="">
+    <address class="footer__address">
+        <h4 class="footer__title">SOCIALIZE WITH HYDRA</h4>
+        <div class="address__social-sites">
+        <a href="#" target="_blank"><img src="assets/icons/facebook.svg" class="social-sites" title="Facebook"></a>
+        <a href="#" target="_blank"><img src="assets/icons/twitter.svg" class="social-sites" title="Twitter"></a>
+        <a href="#" target="_blank"><img src="assets/icons/linkedin.svg" class="social-sites" title="LinkedIn"></a>
+        <a href="#" target="_blank"><img src="assets/icons/youtube.svg" class="social-sites" title="Youtube"></a>
+        <a href="#" target="_blank"><img src="assets/icons/instagram.svg" class="social-sites" title="Instagram"></a>
+        <a href="#" target="_blank"><img src="assets/icons/pinterest.svg" class="social-sites" title="Pinterest"></a>
+        </div>
+        <button class="footer__button">
+            BUILD YOUR WORLD
+        </button>
     </address>
-    2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED 
+</div>
+    <div class="">2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED</div> 
+</div>
 </footer>
 </body>
 </html>
