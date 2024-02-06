@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
     src: url(./assets/fonts/Montserrat-Regular.ttf);
 }
-
+/* Общие стили */
 a{
     
     text-decoration: none;
@@ -31,6 +31,7 @@ body{
     margin-right: auto;
 }
 
+/* Стили для секции header */
 
 .header_header{
     margin-bottom: 5%;
@@ -104,6 +105,8 @@ body{
     font-weight: 700;
     line-height: normal;
 }
+
+/* Стили для секции main */
 
 .main__title1{
     color: #FFF;
@@ -440,6 +443,8 @@ body{
     line-height: normal;
 }
 
+/* Стили для секции introduction */
+
 .introduction__wrapper{
     display: grid;
     grid-template-columns: 30% 15% 55%;
@@ -480,6 +485,8 @@ label{
     position: absolute;
     width: 1px;
 }
+
+/* Стили для секции about */
 
 .about__image-vr{
     width: 524px;
@@ -522,6 +529,8 @@ label{
     grid-row: 3/4;
 }
 
+/* Стили для секции why */
+
 .why__wrapper{
     display: grid;
     grid-template-columns: 30% 15% 55%;
@@ -555,7 +564,8 @@ label{
 .why-containers{
     display: flex;
     justify-content: space-between;
-    margin-left: 5%;
+    margin-left: 8%;
+    margin-right: 3%;
 }
 
 .why-container{
@@ -581,8 +591,8 @@ label{
 }
 
 .text-why{
-padding-left: 10%;
-padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 
 }
 
@@ -615,6 +625,8 @@ padding-right: 10%;
     padding-bottom: 15px;
 }
 
+/* Стили для секции tech */
+
 .text-why{
     color: #FFF;
     font-family: 'Montserrat';
@@ -638,29 +650,23 @@ padding-right: 10%;
     align-items: center;
     justify-content: space-evenly;
 
-    margin: 10%;
-
+    margin: 8%;
 }
 
-.tech__title1{
-
-}
-.tech__title2{
-
-}
 
 .tech__icons{
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
     margin: 3%
-
 }
 
 .tech__icons__item{
     width: 15%;
     height: 15%;
 }
+
+/* Стили для секции how */
 
 .how__wrapper{
     display: grid;
@@ -737,9 +743,9 @@ padding-right: 10%;
     justify-content: center;
     
 }
-.how-ellipse__img{
-    
-}
+
+/* Стили для секции form */
+
 .form-container{
     width: 1275px;
     height: 1008px;
@@ -927,17 +933,13 @@ form{
     grid-row: 4/5;
     grid-column: 1/3;
 }
+
+/* Стили для секции footer */
+
 .footer__img{
     width: 185px;
     height: 187px;
     flex-shrink: 0;
-}
-
-.address__social-sites{
-    
-}
-.social-sites{
-    
 }
 
 .footer__button{
@@ -964,7 +966,7 @@ form{
     align-items: center;
     justify-content: center;
     margin-bottom: 10%;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
 .footer__title{
@@ -985,13 +987,16 @@ form{
     line-height: normal;
     letter-spacing: 1.82px;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 15%;
+    
     margin-bottom: 5%;
 }
+
 .footer__menu1__item{
     margin-top: 15%;
     margin-bottom: 15%;
 }
+
 .footer__menu2__item{
     margin-top: 15%;
     margin-bottom: 15%;
@@ -1002,11 +1007,8 @@ form{
     margin-bottom: 5%;
     margin-left: 10%;
 }
-/* Общие стили */
-/* Стили для секции header */
-/* Стили для секции main */
-/* Стили для секции introduction */
-/* Стили для секции about */
+
+
 /* Стили для секции why */
 /* Стили для секции how */
 /* Стили для секции footer */
