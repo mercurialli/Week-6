@@ -554,7 +554,8 @@ label{
 
 .why-containers{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 5%;
 }
 
 .why-container{
@@ -579,6 +580,12 @@ label{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+.text-why{
+padding-left: 10%;
+padding-right: 10%;
+
+}
+
 .button-why{
     width: 154px;
     height: 48px;
@@ -593,6 +600,8 @@ label{
 
     border-radius: 40px;
     background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+
+    margin-bottom: 10%;
 }
 
 .title{
@@ -602,6 +611,8 @@ label{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    border-bottom: 1px solid #8176AF;
+    padding-bottom: 15px;
 }
 
 .text-why{
@@ -611,6 +622,7 @@ label{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: -10%;
 }
 
 .tech__titles{
@@ -679,16 +691,31 @@ label{
 }
 
 .how-content{
+    display: flex;
+    margin-top: 5%;
+}
+
+.how-content__text{
     color: #FFF;
     font-family: 'Montserrat';
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 1%;
+    
 }
 
 .how-ellipse{
     display: flex;
+    margin-left: 8%;
+}
+
+.how-ellipde-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .ellipse{
@@ -708,8 +735,11 @@ label{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
-
+.how-ellipse__img{
+    
+}
 .form-container{
     width: 1275px;
     height: 1008px;
@@ -734,6 +764,8 @@ label{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: -1%;
+    padding-bottom: 2%;
 }
 
 .form__title2{
@@ -746,6 +778,8 @@ label{
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin-top: 1%;
+    margin-bottom: 3%;
 }
 
 form{
@@ -893,6 +927,18 @@ form{
     grid-row: 4/5;
     grid-column: 1/3;
 }
+.footer__img{
+    width: 185px;
+    height: 187px;
+    flex-shrink: 0;
+}
+
+.address__social-sites{
+    
+}
+.social-sites{
+    
+}
 
 .footer__button{
     width: 214px;
@@ -917,6 +963,51 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10%;
+    margin-left: 25%;
 }
 
+.footer__title{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
+.footer__author{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.82px;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+.footer__menu1__item{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.footer__menu2__item{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.footer__stroke{
+    margin-top: -5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+/* Общие стили */
+/* Стили для секции header */
+/* Стили для секции main */
+/* Стили для секции introduction */
+/* Стили для секции about */
+/* Стили для секции why */
+/* Стили для секции how */
+/* Стили для секции footer */
+/* Стили для секции tech */
